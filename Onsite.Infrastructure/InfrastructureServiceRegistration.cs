@@ -25,7 +25,7 @@ namespace Onsite.Infrastructure
 
             services.AddScoped(typeof(IAsyncRepository<>), typeof(RepositoryBase<>));
             services.AddScoped<IEtudiantRepository, EtudiantRepository>();
-
+            services.AddScoped<IMatiereRepository, MatiereRepository>();
 
             return services;
         }

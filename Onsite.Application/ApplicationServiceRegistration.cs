@@ -7,7 +7,7 @@ namespace Onsite.Application
         public static IServiceCollection AddApplicationServices(this IServiceCollection services)
         {
             services.AddScoped<IEtudiantService, EtudiantService>();
-
+            services.AddScoped<IMatiereService, MatiereService>();
 
 
             return services;

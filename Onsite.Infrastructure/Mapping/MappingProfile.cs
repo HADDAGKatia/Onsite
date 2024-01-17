@@ -15,6 +15,7 @@ namespace Onsite.Infrastructure.Mapping
         public MappingProfile()
         {
             CreateMap<Etudiant, EtudiantEntity>().ReverseMap();
+            CreateMap<Matiere, MatiereEntity>().ReverseMap();
         }
     }
 }
